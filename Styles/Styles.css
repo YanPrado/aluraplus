@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+:root{
+    --cor-principal: #fff;
+    --cor-secundaria: #C0C0C0;
+    --cor-texto:#f9f9f9;
+    --cor-botao:#167BF7;
+    --background:#00030C;
+    --fonte-texto:'Inter', sans-serif;
+    --cor-botao-efeito:#559ffa;
+}
+body{
+    background-color: var(--background);
+    color: var(--cor-principal);
+    font-family: var(--fonte-texto);
+}
+.texto-entrada{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+}
+.primeira-pagina {
+    background-image: url(../assets/Background.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 1500px;
+    height: 45em;
+}
+.teste{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:  125px 0 0 54px;
+    width: 588px;
+ }
+.button-assinatura{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 512px;
+    font-weight: 400;
+    font-size: 16px;
+    gap: 1em;
+    padding: 3.3em 0 0;
+    text-decoration: none;
+}
+.assinatura-completa{
+    color:var(--cor-principal);
+    border-radius: 8px;
+    background: var(--cor-botao);
+    text-decoration: none;
+    padding: 1em 0 1em 0;
+}
+.assinatura-alura{
+    border-radius: 8px;
+    border: 1px solid var(--cor-principal);
+    padding: 1em 0 1em 0;
+    background-color: transparent;
+    color:var(--cor-principal);
+    text-decoration: none;
+}
+.observacao{
+    color: var(--cor-secundaria);
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+            /* Segunda Pagina */
+.page2{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    padding: 95px 165px;
+}
+.titulo-texto-page2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 588px;
+    padding-left: 69px;
+}
+.titulo-page{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    
+}
+.texto-page{
+    color: var(--cor-texto);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    
+}
+            /*Terceira Pagina */
+.page3{
+    display: flex;
+    align-items: center;
+}
+.titulo-texto-page3{
+    display: flex;
+    flex-direction: column;
+    width: 588px;
+    padding: 0 70px 0 120px;
+}
+.button-page3{
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    color:var(--cor-texto);
+    width: 162.67px;
+    height: 40px;
+    padding: 16px 0 0 0;
+    border-radius: 8px;
+    background: var(--cor-botao);
+    text-decoration: none;
+}
+
+            /* Quarta Pagina */
+.page4{
+display: flex;
+align-items: center;
+padding: 226px 0 0 141px;
+gap:44px;
+}
+.titulo-texto-page4{
+color: var(--cor-texto);
+width: 588px;
+}
+
+            /* Quinta Pagina */
+.page5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 264px 155px 0 155px;
+}
+    .imagens-page5{
+    display: flex;
+    gap:69px;
+}
+.image-page5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.texto-page5{
+    text-align: center;
+
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    
+}
+
+            /*Rodape*/
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 145px 120px 99.1px 120px;
+}
+
+.informacao-rodape{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    gap:16px;
+    padding: 2.5em 0em 1.5em;
+}
+.texto-footer{
+    color: var(--cor-secundaria);
+    text-align: center;
+    font-size: 14px;    
+    font-weight: 400;
+    line-height: 150%;
+    opacity: 0.8;
+}
+.informacao-rodape a:hover{
+    color: var(--cor-botao);
+}
+.informacao-rodape a:active{
+    color: purple;
+}
+.button:hover{
+    background-color:var(--cor-botao-efeito);
+    color: var(--background);
+}
